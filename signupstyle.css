@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(147, 219, 147));
+}
+.signup-form{
+    width: 450px;
+    height: 90vh;
+    margin: 35px auto;
+    background-color: rgb(30, 143, 30);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 3, 0) 1px 0 1px 5px;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: green;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+label{
+    font-size: 15px;
+    margin: 10px 0 0 100px;
+}
+input{
+    width: 50%;
+    min-height: 24px;
+    margin: 1px 0 0 100px;
+    border-radius: 1px;
+    position: relative;
+}
+button{
+    width: 35%;
+    height: 30px;
+    margin: 20px 0 0 0;
+    background-color: rgb(32, 95, 32);
+    cursor: pointer;
+}
+.btn-container{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: rgb(49, 175, 87);
+}
+.term-text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}

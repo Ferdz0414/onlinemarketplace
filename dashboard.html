@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB MARKET ONLINE SHOP</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+                     <!--FOR THE PROGRESS BAR-->
+    <main>
+        <div class="wrap-progress">
+         <div class="progress-container">
+                <div class="progress-bar" data-step="1">
+                    <!--TRANSACTION OR TRACKING-->
+                <div class="circle"><i class="fas fa-shopping-basket"></i><p class="icon-text">ITEM</p></div>
+                <div class="progress-bar" data-step="2"></div>
+                <div class="circle"><i class="fas fas fa-file"></i><p class="icon-text">Details</p></div>
+                <div class="progress-bar" data-step="3"></div>
+                <div class="circle"><i class="fas fa-wallet"></i><p class="icon-text">Payment Method</p></div>
+                <div class="progress-bar" data-step="4"></div>
+                <div class="circle"><i class="fas fa-box"></i><p class="icon-text">Delivery</p></div>
+                <div class="progress-bar" data-step="5"></div>
+                <div class="circle"><i class="fas fa-file-alt"></i><p class="icon-text">Place Order</p></div>
+                <div class="progress-bar" data-step="6"></div>
+                <div class="circle"><i class="fas fa-check-circle"></i><p class="icon-text">Received</p></div>
+                </div>
+            </div>
+        </div>
+    </main>
+                        <!--SIDE BAR FOR THE DASHBOARD-->
+    <div class="asidebar">
+        <div class="profile">
+                        <!--PROFILING-->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8AJM9wkP__z2M-hovSAWcTb_9XJ6smy3NKw&s" alt="Avatar" class="avatar">
+        </div>
+            <h2>ACCOUNT NAME</h2>
+            <i class="fas fa-envelope"></i><a href="#" class="email">accunt@gmail.com</a>
+            <br>
+            <i class="fas fa-phone"><p class="phonenumber">09-00000-0000</p></i>
+             <hr>
+                        <!--LIST OF NAVBAR-->
+                <ul class="nav-list">
+
+                    <li class="nav-listitem">
+                        <select class="product">
+                            <option value="" class="productlist">PRODUCT ITEMS</option>
+                            <option value="" class="productlist">VEGETABLE</option>
+                            <option value="" class="productlist">MEAT</option>
+                            <option value="" class="productlist">FRUITS</option>
+                            <option value="" class="productlist">RICE</option>
+                            <option value="" class="productlist">MILK</option>
+                            <option value="" class="productlist">COFFEE</option>
+                            <option value="" class="productlist">SUGAR</option>
+                            <option value="" class="productlist">EGG</option>
+                        </select>
+                    </li>
+            
+                        <li class="nav-listitem"><a href="#"  class="listitems">DASHBOARB</a></li>
+                        <li class="nav-listitem"><a href="#" class="listitems">PROFILE</a></li>
+                        <li class="nav-listitem"><a href="#"  class="listitems">NOTIFICATION</a></li>
+                        <li class="nav-listitem"><a href="#"  class="listitems">SETTING</a></li>
+                </ul>
+                            <!---ICON FOR SIDEBAR-->
+                        <div class="icon"><i class="fas fa-wallet"><a href="#" class="listitemlink">PAYMENT METHOD</a></i></div>
+                        <div class="icon"><i class="fas fa-shopping-cart"><a href="#" class="listitemlink">Add to Cart</p></i></div>  
+                            <li class="nav-listitem"><a href="landingpage.html"  class="listitems">LOG OUT</a></li>      
+    </div>
+                        <!--FOR THE CARD-->
+    <section class="item">
+        <div class="product-item">
+            <p class="percentage">33%</p>
+            <p class="text-items">OUT OF DELIVERY</p>
+        </div>
+    </section>
+
+    <section class="item">
+        <div class="product-item">
+            <p class="percentage1">24%</p>
+            <p class="text-items1">DELIVERY</p>
+        </div>
+    </section>
+
+    <section class="item">
+        <div class="product-item">
+            <p class="percentage2">37%</p>
+            <p class="text-items2">ADD TO CART</p>
+        </div>
+    </section>
+
+    <section class="item">
+        <div class="product-item">
+            <p class="percentage3">6%</p>
+            <p class="text-items3">TO PAY</p>
+         </div>
+    </section>
+
+                        <!--FOR THE TABLE-->
+    <section class="table-section">
+        <h1>DASH BOARD FOR DELIVERY TRACKING</h1>
+             <div class="table">
+                    <table class="tables">
+                        <thead>
+                            <tr>
+                                <th>REFERENCE NUMBER</th>
+                                <th>DATE</th>
+                                <th>ITEMS OR PRODUCT</th>
+                                <th>LOCATION</th>
+                                <th>PAYMENT METHOD</th>
+                                <th>STATUS</th>
+                            </tr>
+                        </thead>
+                                     <tbody>
+        
+                                         <tr>
+                                            <td>13904jd</td>
+                                            <td>05-02-2025</td>
+                                            <td>VEGETABLE</td>
+                                            <td>QUEZON CITY</td>
+                                            <td>CASH ON DELIVERY</td>
+                                            <td>
+                                                            <!--FOR THE SELECT OF TRACKING-->
+                                                <select class="drop-listed">
+                                                    <option value="">CHOOSE</option>
+                                                    <option value="1" class="drop-list" data-step="1" id="circle">ITEM</option>
+                                                    <option value="2" class="drop-list" data-step="2"  id="circle">DETAILS</option>
+                                                    <option value="3" class="drop-list"  data-step="3" id="circle">DELIVERY</option>
+                                                    <option value="4" class="drop-list"  data-step="4" id="circle">RECEIVED</option>
+                                                    <option value="5"  class="drop-list"  data-step="5" id="circle">PLACE ORDER</option>
+                                                    <option value="6" class="drop-list"  data-step="6" id="circle">PAYMENT METHON</option>
+                                                </select>
+                                            </td>
+                                        </tr>   
+                                    </tbody>
+                    </table>
+    </section>
+        <br>
+                         <!--FOR IMAGE FOR SELLING AND MARKETING-->
+    <section class="gif-photo">
+        <div class="gifimage">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Dnqn4crcWjmF539yBszIMU3Z5McoKwA8dg&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGpQ264Ah1-3THy973He1BS-IFaRnoxQeRw&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVNj_w9nkUnjoePhkZfRwm2c9j0wsOB3lk2w&s" alt="">
+        </div>
+    </section>
+        <br>
+    <section class="gif-photo">
+        <div class="gifimage">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Dnqn4crcWjmF539yBszIMU3Z5McoKwA8dg&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGpQ264Ah1-3THy973He1BS-IFaRnoxQeRw&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVNj_w9nkUnjoePhkZfRwm2c9j0wsOB3lk2w&s" alt="">
+        </div>
+            <button type="button" class="market">Market</button>
+    </section>
+                        <!--FOR THE JAVASCRIPT-->
+                <script src="dashboard.js"></script> 
+                  
+                    <!--PARA SA FOOTER-->
+    <footer class="footer">
+        <p class="footer-text">© 2023 Market Place Store Online. All rights reserved.</p>
+        <div class="social-media">
+            <a href="facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>                
+</body>
+</html>
