@@ -404,3 +404,19 @@ main{
     margin: 10px 0 0 49px;
     position: relative;
 }
+.drop-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    background-color: #60da55;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.drop-list:hover{
+    background-color: #219717;
+}
