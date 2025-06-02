@@ -368,12 +368,8 @@ main{
     text-align: center;
     font-size: 18px;
 }
-.cirlce.active{
+.progress-bar.active{
     background: #4cd43f; color: #ffff;
-}
-
-.circle.done{
-    background: #11630a; color: #ffff;
 }
 .footer{
     margin-top: 150px;
@@ -417,6 +413,27 @@ main{
     border-radius: 5px;
     cursor: pointer;
 }
-.drop-list:hover{
+.btn-cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    background-color: #60da55;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.drop-list:hover, .btn-cancel:hover{
     background-color: #219717;
 }
+
+.btn.disabled{
+    background-color: #11630a;
+    color: var(--white);
+    cursor: not-allowed;
+    border: 1px solid var(--grey);
+}
+

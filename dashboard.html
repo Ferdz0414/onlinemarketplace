@@ -12,17 +12,22 @@
     <main>
         <div class="wrap-progress">
          <div class="progress-container">
+            <!--TRANSACTION OR TRACKING-->
                 <div class="progress-bar" data-step="1">
-                    <!--TRANSACTION OR TRACKING-->
                 <div class="circle"><i class="fas fa-shopping-basket"></i><p class="icon-text">ITEM</p></div>
+
                 <div class="progress-bar" data-step="2"></div>
                 <div class="circle"><i class="fas fas fa-file"></i><p class="icon-text">Details</p></div>
+
                 <div class="progress-bar" data-step="3"></div>
                 <div class="circle"><i class="fas fa-wallet"></i><p class="icon-text">Payment Method</p></div>
+
                 <div class="progress-bar" data-step="4"></div>
                 <div class="circle"><i class="fas fa-box"></i><p class="icon-text">Delivery</p></div>
+
                 <div class="progress-bar" data-step="5"></div>
                 <div class="circle"><i class="fas fa-file-alt"></i><p class="icon-text">Place Order</p></div>
+                
                 <div class="progress-bar" data-step="6"></div>
                 <div class="circle"><i class="fas fa-check-circle"></i><p class="icon-text">Received</p></div>
                 </div>
@@ -36,7 +41,7 @@
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8AJM9wkP__z2M-hovSAWcTb_9XJ6smy3NKw&s" alt="Avatar" class="avatar">
         </div>
             <h2>ACCOUNT NAME</h2>
-            <i class="fas fa-envelope"></i><a href="#" class="email">accunt@gmail.com</a>
+            <i class="fas fa-envelope"></i><a href="#" class="email">account@gmail.com</a>
             <br>
             <i class="fas fa-phone"><p class="phonenumber">09-00000-0000</p></i>
              <hr>
@@ -57,14 +62,14 @@
                         </select>
                     </li>
             
-                        <li class="nav-listitem"><a href="#"  class="listitems">DASHBOARB</a></li>
+                        <li class="nav-listitem"><a href="#"  class="listitems">DASHBOARD</a></li>
                         <li class="nav-listitem"><a href="#" class="listitems">PROFILE</a></li>
                         <li class="nav-listitem"><a href="#"  class="listitems">NOTIFICATION</a></li>
                         <li class="nav-listitem"><a href="#"  class="listitems">SETTING</a></li>
                 </ul>
                             <!---ICON FOR SIDEBAR-->
                         <div class="icon"><i class="fas fa-wallet"><a href="#" class="listitemlink">PAYMENT METHOD</a></i></div>
-                        <div class="icon"><i class="fas fa-shopping-cart"><a href="#" class="listitemlink">Add to Cart</p></i></div>  
+                        <div class="icon"><i class="fas fa-shopping-cart"><a href="#" class="listitemlink">ADD TO CART</p></i></div>  
                             <li class="nav-listitem"><a href="landingpage.html"  class="listitems">LOG OUT</a></li>      
     </div>
                         <!--FOR THE CARD-->
@@ -121,12 +126,14 @@
                                             <td>CASH ON DELIVERY</td>
                                             <td>
                                                             <!--FOR THE SELECT OF TRACKING-->
-                                                    <button  type="button" class="drop-list">ITEM</button>
-                                                    <button  type="button" class="drop-list">DETAILS</button>
-                                                    <button  type="button" class="drop-list">DELIVERY</button>
-                                                    <button  type="button" class="drop-list">RECEIVED</button>
-                                                    <button type="button" class="drop-list">PLACE ORDER</button>
-                                                    <button  type="button" class="drop-list">PAYMENT METHON</button>
+                                                    <button  type="button" class="drop-list" onclick="progressStep()">ITEM</button>
+                                                    <button  type="button" class="drop-list" onclick="progressStep()">DETAILS</button>
+                                                    <button  type="button" class="drop-list" onclick="progressStep()">DELIVERY</button>
+                                                    <button  type="button" class="drop-list" onclick="progressStep()">RECEIVED</button>
+                                                    <button type="button" class="drop-list" onclick="progressStep()">PLACE ORDER</button>
+                                                    <button  type="button" class="btn-cancel" onclick="cancel()">CANCEL</button>
+                                                    <button  type="button" class="drop-list" onclick="progressStep()">PAYMENT METHON</button>
+                                                    
                                             </td>
                                         </tr>   
                                     </tbody>
